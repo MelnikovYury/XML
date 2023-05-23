@@ -1,1 +1,10 @@
-
+<bug_report>
+<id>1</id>
+<title>Missing images on some Glossary pages</title>
+<steps_to_reproduce>Navigate to website, Hover over the Education menu section, Click the Glossary of trading terms item</step_to_reproduce>
+<expectly_result>The image srcset link has no space characters, as a result image is shown on the page</expectly_result>
+<actual_result>The image srcset link has a space characters, as a result image is not shown on the page</actual_result>
+<link_attach>link</link_attach>
+<comments>some comments</comments>
+<bug_reproduced>Yuriy Melnikov</bug_reproduced>
+<bug_reviewd>Oleg Ivanov</bug_reviewed>
